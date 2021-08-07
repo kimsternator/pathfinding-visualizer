@@ -1,0 +1,30 @@
+.visualizer {
+  display: flex;
+  background-color: blue;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  align-content: center;
+
+  .buttons {
+    display: block;
+    text-align: center;
+    background-color: red;
+    width: 100vw;
+    margin: 10px;
+    justify-content: space-between;
+
+    button {
+      margin: 0 20px;
+      height: 30px;
+    }
+  }
+
+  .grid {
+    display: block;
+    background-color: lightcoral;
+    text-align: center;
+    border: 1px solid black;
+  }
+}
+
